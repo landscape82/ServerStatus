@@ -4,6 +4,11 @@
 
 GUI tool to check the SSH status of many Linux servers at once with diagnostic information. Written in Python 2.
 
+## Python modules needed
+
+- paramiko
+- tkinter
+
 ## Quick Start
 
     git clone https://github.com/NanoDano/ServerStatus
