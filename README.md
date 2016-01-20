@@ -4,6 +4,15 @@
 
 GUI tool to check the SSH status of many Linux servers at once with diagnostic information. Written in Python 2.
 
+## Quick Start
+
+    git clone https://github.com/NanoDano/ServerStatus
+    cd ServerStatus
+    cp servers_to_check.py.sample servers.to_check.py
+    vi servers_to_check.py  # Configure your server list here 
+    python ServerStatus.py
+
+
 ## Description
 
 This GUI program takes a list of servers to check from servers_to_check.py. Copy servers_to_check.py.sample to
